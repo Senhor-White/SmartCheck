@@ -49,7 +49,7 @@ A Causa: Identifique o motivo real (ex: cansaço, distração).
 
 O Caminho: Defina uma ação prática para que o erro não se repita.
 
-![Aba reflexão](assets/Aba-reflexao_v0.2.1.png)
+![Aba reflexão](assets/Aba-reflexao_v0.2.2.png)
 
 🌱 4. Gestão de Hábitos
 Dividido entre bons hábitos que você quer Construir e maus hábitos que quer Destruir.
