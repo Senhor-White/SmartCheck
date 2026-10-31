@@ -87,7 +87,7 @@ Auto-Save: Conecte o sistema a um arquivo no seu computador para que ele salve a
 
 Criar Abas: Precisa de um espaço para anotações extras? Use a função "Criar Aba" para adicionar seções personalizadas ao seu menu.
 
-![Aba Segurança e Backup ](assets/Aba-Smartcheck_v.0.2.1.png)
+![Aba Segurança e Backup ](assets/Aba-Smartcheck_v.0.2.2.png)
 
 💡 Dica de Ouro:
 
