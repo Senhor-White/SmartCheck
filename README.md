@@ -38,7 +38,7 @@ Justificativa: Se você não completar um dia, o sistema pedirá uma justificati
 
 Filtros: Use os botões de filtro no topo para ver apenas os dias que deseja analisar.
 
-![Aba histórico](assets/Aba-historico_v0.2.1.png)
+![Aba histórico](assets/Aba-historico_v0.2.2.png)
 
 🧠 3. Reflexão (Análise de Erros)
 Transforme falhas em aprendizado. Use esta aba sempre que algo não sair como planejado.
