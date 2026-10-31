@@ -1,21 +1,29 @@
-🚀 Como contribuir
-Fico muito feliz que você tenha clonado este projeto! Se você quer ajudar a melhorá-lo, siga estes passos:
+## 🚀 Como contribuir
 
-Reporte Bugs: Encontrou algo errado? Abra uma Issue detalhando o problema. 🐛
+Fico muito feliz que você tenha clonado este projeto! Se deseja ajudar a melhorá-lo, existem algumas maneiras de contribuir:
 
-Sugira Melhorias: Tem uma ideia nova? Adoraríamos ouvir. 💡
+### 🐛 Reporte bugs
+Encontrou algum problema ou comportamento inesperado? Abra uma **Issue** detalhando o erro encontrado para que possamos investigá-lo.
 
-Envie Código: * Faça um Fork do projeto.
+### 💡 Sugira melhorias
+Tem alguma ideia de funcionalidade ou melhoria? Compartilhe sua sugestão! Toda contribuição é bem-vinda.
 
-Crie uma Branch para sua modificação.
+### 🛠️ Envie código
+Deseja contribuir diretamente com o desenvolvimento? Siga estes passos:
 
-Abra um Pull Request descrevendo o que mudou. 🛠️
+1. Faça um **Fork** do projeto.
+2. Crie uma **Branch** para sua modificação.
+3. Realize as alterações desejadas.
+4. Abra um **Pull Request**, descrevendo as mudanças realizadas.
 
-🔥 Feedback é importante!
-Se você baixou este código e ele foi útil para você, por favor:
+---
 
-Deixe uma Star ⭐ no repositório para nos ajudar a crescer!
+## 🔥 Seu feedback é importante!
 
-Diga o que achou ou o que falta nos comentários das Issues. 💬
+Se você baixou este projeto e ele foi útil para você, considere ajudar de algumas maneiras:
 
-Compartilhe com outros desenvolvedores! 📢
+- ⭐ **Deixe uma Star:** ajude o repositório a crescer e alcançar mais desenvolvedores.
+- 💬 **Compartilhe sua opinião:** diga o que achou ou quais melhorias gostaria de ver nos comentários das Issues.
+- 📢 **Compartilhe o projeto:** divulgue-o para outros desenvolvedores que possam se interessar.
+
+Toda contribuição, sugestão ou demonstração de apoio é bem-vinda!
