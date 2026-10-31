@@ -54,7 +54,7 @@ O Caminho: Defina uma ação prática para que o erro não se repita.
 🌱 4. Gestão de Hábitos
 Dividido entre bons hábitos que você quer Construir e maus hábitos que quer Destruir.
 
-![Aba Hábitos](assets/Aba-habitos_v0.21.png)
+![Aba Hábitos](assets/Aba-reflexao_v0.2.2.png)
 
 Bons: Liste hábitos positivos (ex: Meditar, Ler).
 
