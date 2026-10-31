@@ -27,7 +27,7 @@ Rotina Mínima: Use o ![](/assets/Imagem-button-little.png) para dias mais leves
 
 Rotina Comum/Completa: Use o ![Ícone Rotina Comum](assets/Imagem-button-little_1.png) para cumprir todas as suas tarefas.
 
-![Aba checklist](assets/Aba-Principal_v0.2.1.png)
+![Aba checklist](assets/Aba-Principal_v0.2.2.png)
 
 📜 2. Histórico e Filtros
 Acompanhe seu desempenho passado e veja onde você teve sucesso ou falhas.
