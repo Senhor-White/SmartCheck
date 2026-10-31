@@ -1,0 +1,422 @@
+/* ==========================================================================
+   SMARTCHECK - DEDICATED MOBILE & RESPONSIVENESS OPTIMIZATION
+   Otimização extrema para dispositivos móveis (largura, espaçamentos e usabilidade)
+   ========================================================================== */
+
+/* Regras gerais para toque e prevenção de estouro horizontal */
+html, body {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  touch-action: manipulation;
+}
+
+/* ==========================================================================
+   BREAKPOINT: CELULARES & TABLETS (<= 768px)
+   ========================================================================== */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 12px !important;
+    padding-top: 68px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Cabeçalho Limpo */
+  header {
+    margin-bottom: 14px !important;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.55rem !important;
+    letter-spacing: -0.5px;
+  }
+
+  .current-date {
+    font-size: 0.82rem !important;
+    opacity: 0.85;
+  }
+
+  /* Botão HUD Superior Esquerdo */
+  .hud-toggle {
+    top: 12px !important;
+    left: 12px !important;
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 1.2rem !important;
+    border-radius: 10px !important;
+  }
+
+  /* Menu Lateral HUD no Celular */
+  .hud-menu {
+    width: min(300px, 84vw) !important;
+    padding-top: 70px !important;
+  }
+
+  .hud-item {
+    padding: 12px 14px !important;
+    font-size: 0.95rem !important;
+    min-height: 44px !important;
+  }
+
+  /* Barra de Controle da Tela Principal (Reset do Dia Fora do Componente) */
+  .main-screen-toolbar {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 16px !important;
+  }
+
+  .btn-reset-day-outer {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 12px 16px !important;
+    font-size: 0.92rem !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Checklist Centralizado e Cartões do Dia */
+  #checklist {
+    width: 100% !important;
+  }
+
+  #weekContainer {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .day-card {
+    width: 100% !important;
+    padding: 14px 12px !important;
+    margin-bottom: 14px !important;
+    border-radius: 12px !important;
+  }
+
+  .day-header {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .day-title {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 1.05rem !important;
+  }
+
+  /* Ícone de Rotina Mínima Posicionado no Componente do Dia */
+  .routine-icon-btn {
+    min-height: 36px !important;
+    padding: 4px 10px !important;
+    font-size: 0.8rem !important;
+  }
+
+  /* Barra de Progresso no Celular */
+  .progress-bar-container {
+    width: 100% !important;
+    gap: 8px !important;
+  }
+
+  .progress-count {
+    font-size: 0.78rem !important;
+  }
+
+  /* Blocos da Rotina no Checklist */
+  .checklist-category-block {
+    padding: 10px 10px !important;
+    margin-bottom: 10px !important;
+    border-radius: 8px !important;
+  }
+
+  .checklist-cat-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 6px !important;
+  }
+
+  .checklist-cat-title {
+    font-size: 0.88rem !important;
+    gap: 6px !important;
+  }
+
+  /* Botão de Remoção de Bloco no Checklist */
+  .btn-remove-block {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 0.85rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 6px !important;
+  }
+
+  /* Itens de Tarefa com Touch Otimizado */
+  .task-item {
+    min-height: 44px !important;
+    padding: 10px 8px !important;
+    gap: 10px !important;
+    border-radius: 8px !important;
+  }
+
+  .task-text {
+    font-size: 0.88rem !important;
+    line-height: 1.35 !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .neon-checkbox-label {
+    min-width: 24px !important;
+    min-height: 24px !important;
+  }
+
+  .complete-day-btn {
+    width: 100% !important;
+    min-height: 44px !important;
+    padding: 12px !important;
+    font-size: 0.92rem !important;
+  }
+
+  /* ==========================================================================
+     MODO CARDS NO CELULAR
+     ========================================================================== */
+  .cards-mode-view {
+    padding: 8px 0 !important;
+    width: 100% !important;
+  }
+
+  .daily-card-single {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 260px !important;
+    padding: 22px 16px !important;
+    border-radius: 14px !important;
+  }
+
+  .daily-card-task {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+    margin: 20px 0 !important;
+    word-break: break-word !important;
+  }
+
+  .btn-card-complete {
+    width: 100% !important;
+    min-height: 48px !important;
+    padding: 14px !important;
+    font-size: 1.05rem !important;
+  }
+
+  .card-nav-row {
+    width: 100% !important;
+    display: flex !important;
+    gap: 8px !important;
+    margin-top: 12px !important;
+  }
+
+  .card-nav-row .btn {
+    flex: 1 !important;
+    min-height: 40px !important;
+  }
+
+  .btn-back-mode {
+    width: 100% !important;
+    min-height: 44px !important;
+    padding: 12px !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* ==========================================================================
+     SISTEMA DE LEMBRETES NO CELULAR
+     ========================================================================== */
+  .reminder-config-card {
+    padding: 18px 14px !important;
+  }
+
+  .reminder-header-bar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+
+  .reminder-modal-box {
+    width: 94vw !important;
+    max-width: 440px !important;
+    padding: 24px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .reminder-alert-headline {
+    font-size: 1.15rem !important;
+  }
+
+  .reminder-alert-body {
+    font-size: 1rem !important;
+    max-height: 45vh !important;
+    padding: 14px !important;
+  }
+
+  .btn-reminder-confirm {
+    width: 100% !important;
+    min-height: 46px !important;
+    font-size: 1rem !important;
+  }
+
+  /* ==========================================================================
+     GERENCIAR TAREFAS & BLOCOS NO CELULAR
+     ========================================================================== */
+  .task-manager-top-card {
+    padding: 16px 12px !important;
+  }
+
+  .blocks-header-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+    padding: 10px !important;
+  }
+
+  .category-block-header {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+  }
+
+  .category-block-actions {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    gap: 6px !important;
+  }
+
+  .category-move-group {
+    display: flex !important;
+    gap: 4px !important;
+  }
+
+  .category-move-group button {
+    padding: 6px 8px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .draggable-task-item {
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    padding: 10px 8px !important;
+  }
+
+  .task-info {
+    flex: 1 1 calc(100% - 40px) !important;
+    min-width: 0 !important;
+  }
+
+  .task-item-actions {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    gap: 6px !important;
+    padding-top: 6px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+  }
+
+  .category-inline-select {
+    flex: 1 !important;
+    min-width: 100px !important;
+    max-width: 160px !important;
+    font-size: 16px !important;
+  }
+
+  /* ==========================================================================
+     FORMULÁRIOS & INPUTS (TAMANHO MÍNIMO 16PX CONTRA ZOOM FORÇADO NO IOS)
+     ========================================================================== */
+  .styled-input,
+  .styled-textarea,
+  select.styled-input {
+    font-size: 16px !important;
+  }
+
+  .form-actions-row {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  .form-actions-row .btn {
+    width: 100% !important;
+    min-height: 44px !important;
+    justify-content: center !important;
+  }
+
+  /* Modais Gerais no Celular */
+  .modal-content,
+  .routine-modal-content {
+    width: 94vw !important;
+    max-width: 100% !important;
+    padding: 20px 14px !important;
+  }
+
+  .routine-modal-actions {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  .routine-btn-no,
+  .routine-btn-yes {
+    width: 100% !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Notificação Toast */
+  .toast {
+    left: 12px !important;
+    right: 12px !important;
+    max-width: calc(100vw - 24px) !important;
+    transform: none !important;
+    bottom: 16px !important;
+  }
+}
+
+/* ==========================================================================
+   BREAKPOINT EXTRA: TELAS MUITO PEQUENAS (<= 400px)
+   ========================================================================== */
+@media screen and (max-width: 400px) {
+  body {
+    padding: 8px !important;
+    padding-top: 64px !important;
+  }
+
+  h1 {
+    font-size: 1.4rem !important;
+  }
+
+  .day-card {
+    padding: 12px 8px !important;
+  }
+
+  .task-item {
+    padding: 8px 6px !important;
+  }
+
+  .btn-icon-action {
+    padding: 6px 8px !important;
+  }
+}
