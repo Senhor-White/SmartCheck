@@ -76,7 +76,7 @@ Deixe o painel com a sua cara.
 
 Temas: No menu lateral, você pode alterar as cores primárias, de destaque e de fundo.
 
-![Aba Personalização](assets/Aba-custom.png)
+![Aba Personalização](assets/Aba-custom-2.png)
 
 💾 7. Segurança e Backup
 Seus dados são salvos localmente no seu navegador, mas você pode garantir que nunca os perderá:
