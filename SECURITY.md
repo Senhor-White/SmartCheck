@@ -11,6 +11,6 @@ Se você encontrar uma vulnerabilidade no código que possa afetar o sistema de 
 
 Não abra uma Issue pública. 🤫
 
-Envie os detalhes para: [saikozinholegal@gmail.com] 📧
+Envie os detalhes para: [senhor.white.work.wad187@passinbox.com] 📧
 
 Analisarei como o código interage com o sistema para lançar um patch de correção. 🤝
