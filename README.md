@@ -93,33 +93,3 @@ Criar Abas: Precisa de um espaço para anotações extras? Use a função "Criar
 
 O SmartCheck funciona 100% offline. Você pode baixar o arquivo HTML e usá-lo em qualquer lugar, mesmo sem internet.
 
-
-Versão 0.2.1 – 16 de Novembro de 2026
-
-📱 Correções Visuais para Dispositivos Móveis
-
-* Ajustes de responsividade em telas pequenas e smartphones.
-* Correção de alinhamento em menus, modais e elementos sobrepostos no mobile.
-* Espaçamentos e áreas de toque otimizados para navegação mobile.
-
-✨ Novo Visual
-
-* Redesign visual refinado mantendo a identidade do projeto.
-* Melhorias na hierarquia visual, tipografia e detalhes de acabamento na interface.
-* Transições e efeitos visuais mais suaves durante a navegação.
----
-## Novo visual do Modo Card:
-
-
-![Imagens da nova interface-1](/assets/Aba-MODOcard_v0.2.1.png)
----
-🛠️ Correções de Funções
-
-* Ajuste de bugs pontuais no fluxo de criação e marcação de tarefas.
-* Melhorias na estabilidade da persistência dos dados no localStorage.
-* Correções na sincronização dos filtros do histórico e das abas personalizadas.
-
-⚡ Otimização
-
-* Limpeza e refatoração do código (CSS e JS) para melhor desempenho.
-* Redução no tempo de resposta das interações e carregamento mais ágil.
