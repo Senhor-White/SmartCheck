@@ -69,7 +69,7 @@ Plano de Ação: O passo a passo detalhado.
 
 Visualização: Seus projetos ficam salvos em cards modernos para fácil consulta.
 
-![Aba Planejamento](assets/Aba-planejamento.png)
+![Aba Planejamento](assets/Aba-planejamento-2.png)
 
 🎨 6. Personalização (Temas e Abas)
 Deixe o painel com a sua cara.
